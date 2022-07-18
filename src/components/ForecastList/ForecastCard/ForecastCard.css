@@ -1,0 +1,12 @@
+.Card1 {
+    height: 200px;
+    width: 160px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardHeader {
+    display: flex;
+    align-items: center;
+}

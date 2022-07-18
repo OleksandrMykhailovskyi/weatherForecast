@@ -1,0 +1,16 @@
+.Card {
+    height: 180px;
+    width: 140px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Tooltip {
+    display: inline-block !important;
+    width: 45.5px;
+    position: absolute !important;
+    right: 0 !important;
+}

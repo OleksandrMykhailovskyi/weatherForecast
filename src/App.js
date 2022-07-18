@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+//components
+import Header from "./components/Header/Header";
+import {Container} from "@mui/material";
+import CardsContainer from "./components/CitiesCards/CardsContainer/CardsContainer";
+import ForecastContainer from "./components/ForecastList/ForecastContainer/ForecastContainer";
+import AddCity from "./components/AddCity/AddCity";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Header />
+      <AddCity />
+      <CardsContainer />
+      <ForecastContainer />
+    </Container>
   );
 }
 
